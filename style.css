@@ -1,0 +1,45 @@
+:root {
+  --page-background: hsl(216, 12%, 8%);
+  --card-background: hsl(213, 19%, 18%);
+  --muted-text: hsl(217, 12%, 63%);
+  --heading-text: hsl(0, 0%, 100%);
+  --accent: hsl(25, 97%, 53%);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 24px;
+  background: var(--page-background);
+  color: var(--muted-text);
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
