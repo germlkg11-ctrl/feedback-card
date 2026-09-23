@@ -43,3 +43,81 @@ main {
   display: flex;
   justify-content: center;
 }
+.card {
+  width: 100%;
+  max-width: 410px;
+  padding: 32px;
+  background: var(--card-background);
+  border-radius: 20px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  padding: 16px;
+  display: block;
+  margin-bottom: 28px;
+  background: hsl(213, 19%, 23%);
+  border-radius: 50%;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: var(--heading-text);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.rating-state {
+  width: 100%;
+}
+
+fieldset {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 24px;
+  padding: 0;
+  border: 0;
+}
+
+fieldset input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+fieldset label {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(213, 19%, 23%);
+  color: var(--muted-text);
+  border-radius: 50%;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+fieldset label:hover {
+  background: var(--accent);
+  color: var(--page-background);
+}
+
+fieldset input[type="radio"]:checked + label {
+  background: var(--heading-text);
+  color: var(--page-background);
+}
+
+fieldset input[type="radio"]:focus-visible + label {
+  outline: 3px solid hsl(45, 100%, 70%);
+  outline-offset: 4px;
+}
