@@ -121,3 +121,60 @@ fieldset input[type="radio"]:focus-visible + label {
   outline: 3px solid hsl(45, 100%, 70%);
   outline-offset: 4px;
 }
+button[type="submit"] {
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--page-background);
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: var(--heading-text);
+  color: var(--page-background);
+}
+
+button[type="submit"]:focus-visible {
+  outline: 3px solid hsl(45, 100%, 70%);
+  outline-offset: 4px;
+}
+.thank-you-state {
+  text-align: center;
+}
+
+.illustration {
+  display: block;
+  width: 150px;
+  max-width: 100%;
+  margin: 0 auto 28px;
+}
+
+.selected {
+  display: inline-block;
+  margin: 0 0 28px;
+  padding: 7px 18px;
+  background: hsl(213, 19%, 23%);
+  color: var(--accent);
+  border-radius: 999px;
+  line-height: 1.4;
+}
+
+.thank-you-state h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: var(--heading-text);
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.thank-you-state p:last-child {
+  margin-bottom: 0;
+}
