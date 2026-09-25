@@ -1,29 +1,30 @@
 # Feedback card
 
+A simple interactive feedback card that allows visitors to choose a rating from 1 to 5 and receive a personalized thank-you message.
+
 ## What it does
 
-This project is a feedback card that allows a visitor to select a rating from 1 to 5. The card includes a rating form and a thank-you section that will be made interactive with JavaScript in a later lesson.
+The feedback card lets a visitor select a rating and submit the form. After submission, the card hides the rating form and displays a thank-you message showing the selected rating out of 5.
 
 ## Built with
 
 * HTML5
-* Accessible form controls
-* Radio buttons
-* Fieldset and legend
 * CSS3
-* Git and GitHub
+* JavaScript
+* Git
+* GitHub
+* GitHub Pages
 
 ## What I learned
 
-I learned how radio buttons form a group using the same `name` attribute. I also practiced connecting labels to inputs, using `required`, organizing forms with `fieldset` and `legend`, and creating a Git repository inside an existing folder.
+In this project, I learned how JavaScript functions can return values and how those returned values can be used by another function. I practiced parameters, arguments, default parameters, `return`, early return, `querySelector()`, and `addEventListener()`.
 
-I also learned how the CSS `+` selector can style an element based on the element that comes immediately before it, such as using `input:checked + label` to style the selected rating.
+I also learned how to separate functions that work out a value from functions that change the webpage. This made the JavaScript easier to test and understand.
 
 ## Live site
 
-https://germlkg11-ctrl.github.io/feedback-card/
+[View the live Feedback Card](https://germlkg11-ctrl.github.io/feedback-card/?utm_source=chatgpt.com)
 
 ## Screenshot
- 
 
-![Feedback Card screenshot](./images/feedback-card-screenshot.png)
+![Feedback Card screenshot](feedback-card-screenshot.png)
