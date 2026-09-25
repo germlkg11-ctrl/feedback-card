@@ -27,4 +27,4 @@ I also learned how to separate functions that work out a value from functions th
 
 ## Screenshot
 
-![Feedback Card screenshot](feedback-card-screenshot.png)
+![Feedback Card screenshot]feedback-card-screenshot.png
